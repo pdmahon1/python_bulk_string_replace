@@ -38,4 +38,7 @@ Note:
 
 Admittedly, I have a large anime collection thanks to yt-dlp and Crunchyroll integration. I noticed all of the colons in the filenames were "full-width colon unicode characters" (：, or U+FF1A). 
 I started to manually convert them to colons (:, U+003A) by hand until I realized far too many filenames had the full-width colon character -- and some of the names had multiple full-width colons.
+
 I decided it would be in my best interest to simply write a bulk renaming script -- one with some degree of customizability -- that I can also use for future use.
+
+NOTE: I now realize there exists a `rename` program by GNU that does this exact process -- and the commands are even the same! (except my rename.py can be optionally recursive) Oh well! Now I know how to navigate the file system with Python. Winning!
