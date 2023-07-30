@@ -32,7 +32,7 @@ Note:
 * At this time, the tests must be manually verified by running through the directories to see if all instances of CHANGE-ME are renamed to CHANGED. I am debating whether to add a "walk the tree" testing function to test.py or rename.py.
 * The easiest way to manually verify is to run `ls -R | grep "CHANGE-ME"`. If grep outputs text, then the output will give the path to the files that were not changed. 
 * Due to the requirement to manually verify the results, there is no cleanup functionality to remove the newly created directories that are used for testing.
-* Each time the `test.py` script is run, it deletes any existing versions of the test directories and re-create them by copying the `test_directory/` directory.
+* Each time the `test.py` script is run, it deletes any existing versions of the test directories and re-creates them by copying the `test_directory/` directory.
 
 ## What Was The Inspiration For Writing This Script?
 
